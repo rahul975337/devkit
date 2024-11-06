@@ -1,16 +1,19 @@
 {
-  "name": "docs",
+  "name": "quotient",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbo --port 3001",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@repo/ui": "*",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.36.0",
     "next": "14.2.6",
+    "postgres": "^3.4.5",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
